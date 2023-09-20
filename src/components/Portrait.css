@@ -1,0 +1,19 @@
+.portrait-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scroll */
+    white-space: nowrap; /* Keep inline-block items on the same line */
+  
+    /* Add optional styles for better appearance */
+    gap: 16px;
+    padding: 20px 0;
+    margin-top: 70px;
+}
+  
+.portrait-container img {
+    flex: 0 0 auto;  /* This ensures the image doesn't shrink */
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  

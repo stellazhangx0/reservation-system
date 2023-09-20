@@ -1,0 +1,16 @@
+.home-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+  
+.home-image {
+    max-width: 40%;
+    height: auto;
+    margin-top: 100px; 
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+  

@@ -1,0 +1,74 @@
+.booking-container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.form-item {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; /* To ensure label and input are stacked vertically */
+}
+
+.form-item label {
+  margin-bottom: 8px;
+  font-weight: 600; /* Makes label text a bit bolder */
+}
+
+.form-item input[type="text"],
+.form-item textarea,
+.form-item select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease; /* For a smoother focus effect */
+}
+
+.form-item input[type="text"]:focus,
+.form-item textarea:focus,
+.form-item select:focus {
+  border-color: #007BFF; /* Changes the border color when focused */
+}
+
+.form-item input[type="checkbox"] {
+  margin-top: 8px; /* A little space between the label and the checkbox */
+}
+
+.form-item small {
+  margin-top: 4px;
+  color: grey;
+  font-size: 12px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.submit-button, .back-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+}
+
+.back-button {
+  background-color: #ccc;
+  color: black;
+}
+
+.text-section {
+  font-size: 14px;
+  max-width: 40%;
+  margin-right: 40px;
+  margin-top: 50px;
+}
